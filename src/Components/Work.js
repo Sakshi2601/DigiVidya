@@ -1,34 +1,39 @@
 import React from "react";
-import PickMeals from "../Assets/pick-meals-image.png";
-import ChooseMeals from "../Assets/choose-image.png";
-import DeliveryMeals from "../Assets/delivery-image.png";
+import Immersive from "../Assets/fea1.jpg";
+import ai from "../Assets/fea2.jpg";
+import industry from "../Assets/fea3.jpg";
+import skill from "../Assets/fea4.jpg";
 
 const Work = () => {
   const workInfoData = [
     {
-      image: PickMeals,
-      title: "Pick Meals",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      image: Immersive,
+      title: "Immersive VR Courses",
+      text: "Dive into interactive learning that brings concepts to life.",
     },
     {
-      image: ChooseMeals,
-      title: "Choose How Often",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      image: ai,
+      title: "Personalized Career Guidance",
+      text: "Get tailored advice and insights from AI-powered chatbots.",
     },
     {
-      image: DeliveryMeals,
-      title: "Fast Deliveries",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      image: skill,
+      title: "Skill Certifications and Badges",
+      text: "Earn recognized certifications that showcase your expertise to employers.",
+    },
+    {
+      image: industry,
+      title: "Industry Connections",
+      text: "Connect directly with recruiters and land your dream internships.",
     },
   ];
   return (
     <div className="work-section-wrapper">
       <div className="work-section-top">
-        <p className="primary-subheading">Work</p>
-        <h1 className="primary-heading">How It Works</h1>
+        <p className="primary-subheading">Features</p>
+        <h1 className="primary-heading">Why Chose Us</h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        We offer personalized career guidance, industry-recognized certifications, and direct connections to recruiters, all powered by cutting-edge VR technology.
         </p>
       </div>
       <div className="work-section-bottom">

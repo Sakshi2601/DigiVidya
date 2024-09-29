@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../Assets/Logo.svg";
+import Logo from "../Assets/logo1.jpg";
 import { BsTwitter } from "react-icons/bs";
 import { SiLinkedin } from "react-icons/si";
 import { BsYoutube } from "react-icons/bs";
@@ -21,20 +21,15 @@ const Footer = () => {
       </div>
       <div className="footer-section-two">
         <div className="footer-section-columns">
-          <span>Qualtiy</span>
+          <span>VR courses</span>
           <span>Help</span>
           <span>Share</span>
-          <span>Carrers</span>
           <span>Testimonials</span>
           <span>Work</span>
         </div>
         <div className="footer-section-columns">
-          <span>244-5333-7783</span>
-          <span>hello@food.com</span>
-          <span>press@food.com</span>
-          <span>contact@food.com</span>
-        </div>
-        <div className="footer-section-columns">
+          <span>+91 841 200 7425</span>
+          <span>techvalkyries@gmail.com</span>
           <span>Terms & Conditions</span>
           <span>Privacy Policy</span>
         </div>
