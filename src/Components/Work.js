@@ -1,6 +1,6 @@
 import React from "react";
 import Immersive from "../Assets/fea1.jpg";
-import ai from "../Assets/fea2.jpg";
+import ai from "../Assets/fea2.webp";
 import industry from "../Assets/fea3.jpg";
 import skill from "../Assets/fea4.jpg";
 
@@ -8,23 +8,23 @@ const Work = () => {
   const workInfoData = [
     {
       image: Immersive,
-      title: "Immersive VR Courses",
-      text: "Dive into interactive learning that brings concepts to life.",
+      title: "AI-Driven Restoration Tools",
+      text: "Revitalize damaged artifacts and artworks using advanced AI algorithms that analyze and reconstruct missing elements.",
     },
     {
       image: ai,
-      title: "Personalized Career Guidance",
-      text: "Get tailored advice and insights from AI-powered chatbots.",
+      title: "Virtual Heritage Tours",
+      text: "Explore historical sites and museums through immersive VR experiences that bring cultural heritage to life.",
     },
     {
       image: skill,
-      title: "Skill Certifications and Badges",
-      text: "Earn recognized certifications that showcase your expertise to employers.",
+      title: "Collaborative Restoration Workshops",
+      text: "Engage in hands-on workshops with experts and artists, learning techniques for preserving and restoring cultural artifacts.",
     },
     {
       image: industry,
-      title: "Industry Connections",
-      text: "Connect directly with recruiters and land your dream internships.",
+      title: "Cultural Knowledge Hub",
+      text: "Access a wealth of resources, including articles, videos, and case studies, to deepen your understanding of heritage preservation.",
     },
   ];
   return (
@@ -33,8 +33,7 @@ const Work = () => {
         <p className="primary-subheading">Features</p>
         <h1 className="primary-heading">Why Chose Us</h1>
         <p className="primary-text">
-        We offer personalized career guidance, industry-recognized certifications, and direct connections to recruiters, all powered by cutting-edge VR technology.
-        </p>
+       Heritage Revival uses AI and Generative Engineering to restore cultural heritage while engaging communities through immersive learning experiences and valuable resources.        </p>
       </div>
       <div className="work-section-bottom">
         {workInfoData.map((data) => (

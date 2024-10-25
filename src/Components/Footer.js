@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../Assets/logo1.jpg";
+import Logo from "../Assets/logo.png";
 import { BsTwitter } from "react-icons/bs";
 import { SiLinkedin } from "react-icons/si";
 import { BsYoutube } from "react-icons/bs";
@@ -21,7 +21,7 @@ const Footer = () => {
       </div>
       <div className="footer-section-two">
         <div className="footer-section-columns">
-          <span>VR courses</span>
+          <span>Heritage Revival</span>
           <span>Help</span>
           <span>Share</span>
           <span>Testimonials</span>

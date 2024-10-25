@@ -1,5 +1,5 @@
 import React from "react";
-import ProfilePic from "../Assets/about.jpg";
+import ProfilePic from "../Assets/about (2).png";
 import { AiFillStar } from "react-icons/ai";
 
 const Testimonial = () => {
@@ -11,8 +11,7 @@ const Testimonial = () => {
       <div className="testimonial-section-bottom">
         <img src={ProfilePic} alt="" />
         <p>
-        Meet Tech Valkyries, a team of girl engineers revolutionizing education with DigiVidya VR Portal! Join us in shaping a brighter future!
-        </p>
+          Meet Heritage Revivalists, a team dedicated to restoring India’s cultural treasures through advanced AI and VR technology! Join us in preserving and celebrating our heritage for future generations!        </p>
         <div className="testimonials-stars-container">
           <AiFillStar />
           <AiFillStar />

@@ -1,6 +1,6 @@
 import React from "react";
 import BannerBackground from "../Assets/home-banner-background.png";
-import BannerImage from "../Assets/vr-removebg-preview.png";
+import BannerImage from "../Assets/idol.png";
 import Navbar from "./Navbar";
 import { FiArrowRight } from "react-icons/fi";
 
@@ -14,13 +14,13 @@ const Home = () => {
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-            DigiVidya VR Portal
+            Heritage Revival
           </h1>
           <p className="primary-text">
-            Unlock Your Potential with Immersive Learning: Experiencing the Future of Education
+            Where Tradition Meets Technology
           </p>
           <button className="secondary-button">
-            Enrol Now <FiArrowRight />{" "}
+            Heritage Sites <FiArrowRight />{" "}
           </button>
         </div>
         <div className="home-image-section">
