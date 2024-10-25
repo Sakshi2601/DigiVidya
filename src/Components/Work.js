@@ -28,7 +28,7 @@ const Work = () => {
     },
   ];
   return (
-    <div className="work-section-wrapper">
+    <div id="features" className="work-section-wrapper">
       <div className="work-section-top">
         <p className="primary-subheading">Features</p>
         <h1 className="primary-heading">Why Chose Us</h1>
